@@ -12,6 +12,7 @@
       <li><span>emails_url:</span>"{{resData.emails_url}}"</li>
       <li><span>emojis_url:</span>"{{resData.emojis_url}}"</li>
     </ul>
+    <div v-else>5秒后加载数据，请耐心等待</div>
     
   </div>
 </template>
